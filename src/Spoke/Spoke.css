@@ -1,0 +1,9 @@
+.Spoke {
+  background-color: #666;
+  transform-origin: 0 0;
+  width: 8px;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}

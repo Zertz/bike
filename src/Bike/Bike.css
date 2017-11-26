@@ -1,0 +1,10 @@
+.Bike {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 48em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

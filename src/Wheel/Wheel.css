@@ -1,0 +1,13 @@
+.Wheel {
+  animation: Wheel-spin infinite 20s linear;
+  border: 16px solid #333;
+  border-radius: 50%;
+  width: 16em;
+  height: 16em;
+  position: relative;
+}
+
+@keyframes Wheel-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
