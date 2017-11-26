@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'react'
 
-import Frame from '../Frame';
-import Wheel from '../Wheel';
+import Frame from '../Frame'
+import Wheel from '../Wheel'
 
-import './Bike.css';
+import './Bike.css'
 
 const Bike = props => {
-	return (
-		<div className='Bike'>
-			<Wheel />
+  return (
+    <div className='Bike'>
+      <Wheel />
       <Frame />
-			<Wheel />
-		</div>
-	);
-};
+      <Wheel />
+    </div>
+  )
+}
 
-export default Bike;
+export default Bike

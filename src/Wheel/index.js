@@ -1,3 +1,3 @@
-import Wheel from './Wheel';
+import Wheel from './Wheel'
 
-export default Wheel;
+export default Wheel

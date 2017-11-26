@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Spoke from './Spoke';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Spoke from './Spoke'
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Spoke />, div);
-});
+  const div = document.createElement('div')
+  ReactDOM.render(<Spoke />, div)
+})

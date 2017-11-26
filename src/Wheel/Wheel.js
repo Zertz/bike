@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import Spoke from '../Spoke';
+import Spoke from '../Spoke'
 
-import './Wheel.css';
+import './Wheel.css'
 
 const Wheel = ({ spokes }) => (
   <div className='Wheel'>
@@ -11,14 +11,14 @@ const Wheel = ({ spokes }) => (
       <Spoke key={i} total={spokes} index={i} />
     ))}
   </div>
-);
+)
 
 Wheel.defaultProps = {
   spokes: 12
-};
+}
 
 Wheel.propTypes = {
-	spokes: PropTypes.number
-};
+  spokes: PropTypes.number
+}
 
-export default Wheel;
+export default Wheel

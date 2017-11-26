@@ -1,3 +1,3 @@
-import Spoke from './Spoke';
+import Spoke from './Spoke'
 
-export default Spoke;
+export default Spoke

@@ -1,3 +1,3 @@
-import Bike from './Bike';
+import Bike from './Bike'
 
-export default Bike;
+export default Bike

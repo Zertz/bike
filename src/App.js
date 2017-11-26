@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Bike from './Bike';
+import Bike from './Bike'
 
-import './App.css';
+import './App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
+      <div className='App'>
         <Bike />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

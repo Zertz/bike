@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
-import './Frame.css';
+import './Frame.css'
 
 const Frame = ({ spokes }) => (
   <div className='Frame'>
-    <div className="TopTube"></div>
-    <div className="HeadTube"></div>
-    <div className="DownTube"></div>
-    <div className="SeatTube"></div>
-    <div className="SeatStay"></div>
-    <div className="ChainStay"></div>
+    <div className='TopTube' />
+    <div className='HeadTube' />
+    <div className='DownTube' />
+    <div className='SeatTube' />
+    <div className='SeatStay' />
+    <div className='ChainStay' />
   </div>
-);
+)
 
-export default Frame;
+export default Frame
