@@ -1,0 +1,19 @@
+{
+  "name": "bike",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pier-Luc Gendreau",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zertz/bike.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zertz/bike/issues"
+  },
+  "homepage": "https://github.com/Zertz/bike#readme",
+  "description": ""
+}
