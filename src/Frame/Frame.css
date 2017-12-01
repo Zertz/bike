@@ -1,86 +1,11 @@
 .Frame {
-  width: calc(100% - 16em - 32px);
-  height: calc(100% - 8em);
+  width: 100%;
+  height: 8em;
   position: absolute;
-  bottom: calc(50% - 4px);
-  left: calc(8em + 16px);
 }
 
 .Frame > * {
-  background-color: #999;
+  background-color: currentColor;
   z-index: 1;
   position: absolute;
-}
-
-.TopTube {
-}
-
-.HeadTube {
-}
-
-.DownTube {
-}
-
-.SeatTube {
-}
-
-.SeatStay {
-  transform: rotate(47.5deg);
-  transform-origin: right center;
-  width: 11.5em;
-  height: 8px;
-  right: 0;
-  bottom: 0;
-}
-
-.SeatStay:before, .SeatStay:after {
-  background-color: #999;
-  content: '';
-  position: absolute;
-}
-
-.SeatStay:before {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  top: calc(50% - 10px);
-  left: -10px;
-}
-
-.SeatStay:after {
-  transform: rotate(58.5deg);
-  transform-origin: left center;
-  width: 10em;
-  height: 100%;
-  top: calc(50% - 4px);
-}
-
-.ChainStay {
-  transform: rotate(354deg);
-  transform-origin: right center;
-  width: 10.5em;
-  height: 8px;
-  right: 0;
-  bottom: 0;
-}
-
-.ChainStay:before, .ChainStay:after {
-  background-color: #999;
-  border-radius: 50%;
-  content: '';
-  position: absolute;
-}
-
-.ChainStay:before {
-  width: 28px;
-  height: 28px;
-  top: calc(50% - 14px);
-  left: -14px;
-}
-
-.ChainStay:after {
-  width: 16px;
-  height: 16px;
-  top: calc(50% - 8px);
-  right: -8px;
 }

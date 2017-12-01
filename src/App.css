@@ -1,7 +1,8 @@
 .App {
+  overflow: hidden;
   position: absolute;
-  top: 2em;
-  right: 2em;
-  bottom: 2em;
-  left: 2em;
+  top: 1em;
+  right: 1em;
+  bottom: 1em;
+  left: 1em;
 }

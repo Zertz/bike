@@ -1,13 +1,30 @@
 .Wheel {
-  animation: Wheel-spin infinite 20s linear;
-  border: 16px solid #333;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-color: #333;
+  border-style: solid;
   border-radius: 50%;
-  width: 16em;
-  height: 16em;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
-@keyframes Wheel-spin {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
+.Wheel.front {
+  animation-name: Wheel-spin-front;
+  left: 0;
+}
+
+.Wheel.back {
+  animation-name: Wheel-spin-back;
+  right: 0;
+}
+
+@keyframes Wheel-spin-front {
+  from { transform: translateX(-50%) rotate(360deg); }
+  to { transform: translateX(-50%) rotate(0deg); }
+}
+
+@keyframes Wheel-spin-back {
+  from { transform: translateX(50%) rotate(360deg); }
+  to { transform: translateX(50%) rotate(0deg); }
 }

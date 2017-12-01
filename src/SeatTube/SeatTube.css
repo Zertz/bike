@@ -1,0 +1,6 @@
+.SeatTube {
+  transform: rotate(11deg);
+  transform-origin: center top;
+  width: 0.5em;
+  top: -0.5em;
+}

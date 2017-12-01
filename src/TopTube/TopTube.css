@@ -1,0 +1,7 @@
+.TopTube {
+  transform: rotate(3.5deg);
+  transform-origin: left center;
+  width: 17em;
+  height: 0.5em;
+  left: 5em;
+}

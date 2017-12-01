@@ -1,0 +1,30 @@
+.ChainStay {
+  transform: rotate(353deg);
+  transform-origin: right center;
+  height: 0.5em;
+  right: 0;
+  bottom: -0.25em;
+}
+
+.ChainStay:before, .ChainStay:after {
+  background-color: currentColor;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+}
+
+/* Bottom bracket */
+.ChainStay:before {
+  width: 1.75em;
+  height: 1.75em;
+  top: calc(50% - 0.875em);
+  left: -0.875em;
+}
+
+/* Hub */
+.ChainStay:after {
+  width: 1em;
+  height: 1em;
+  top: calc(50% - 0.5em);
+  right: -0.5em;
+}
