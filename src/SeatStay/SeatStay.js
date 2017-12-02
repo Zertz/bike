@@ -6,7 +6,12 @@ import './SeatStay.css'
 const SeatStay = ({
   wheelDiameter
 }) => (
-  <div className='SeatStay' style={{ width: `${(wheelDiameter / 2) + 3.5}em` }} />
+  <div
+    className='SeatStay'
+    style={{
+      width: `${(wheelDiameter / 2) + 3.5}em`
+    }}
+  />
 )
 
 SeatStay.propTypes = {

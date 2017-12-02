@@ -10,17 +10,21 @@ import ChainStay from '../ChainStay'
 
 import './Frame.css'
 
-const Frame = ({
-  color,
-  wheelDiameter
-}) => (
-  <div className='Frame' style={{ color, bottom: `${wheelDiameter / 2}em` }}>
-    <TopTube />
-    <HeadTube />
-    <DownTube />
-    <SeatTube style={{ height: `${(wheelDiameter / 2) + 2}em`, right: `${(wheelDiameter / 2) - 0.625}em` }} />
-    <SeatStay style={{ width: `${(wheelDiameter / 2) + 3.5}em` }} />
-    <ChainStay style={{ width: `${(wheelDiameter / 2) + 1.5}em` }} />
+const Frame = (props) => (
+  <div
+    className='Frame'
+    style={{
+      color: props.color,
+      height: `${(props.wheelDiameter / 2) + (props.wheelDiameter * 0.125)}em`,
+      bottom: `${props.wheelDiameter / 2}em`
+    }}
+  >
+    <TopTube {...props} />
+    <HeadTube {...props} />
+    <DownTube {...props} />
+    <SeatTube {...props} />
+    <SeatStay {...props} />
+    <ChainStay {...props} />
   </div>
 )
 

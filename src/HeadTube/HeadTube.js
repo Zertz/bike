@@ -7,7 +7,7 @@ const HeadTube = ({
   color,
   wheelDiameter
 }) => (
-  <div className='DownTube' />
+  <div className='HeadTube' />
 )
 
 HeadTube.propTypes = {

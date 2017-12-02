@@ -7,7 +7,12 @@ const ChainStay = ({
   color,
   wheelDiameter
 }) => (
-  <div className='ChainStay' style={{ color, width: `${(wheelDiameter / 2) + 1.5}em` }} />
+  <div
+    className='ChainStay'
+    style={{
+      width: `${(wheelDiameter / 2) + 1.5}em`
+    }}
+  />
 )
 
 ChainStay.propTypes = {
