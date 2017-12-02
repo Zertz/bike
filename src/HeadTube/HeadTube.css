@@ -1,8 +1,7 @@
 .HeadTube {
-  transform: rotate(100deg);
-  transform-origin: left center;
-  width: 3em;
-  height: 0.5em;
+  transform: rotate(20deg);
+  width: 0.5em;
+  height: 3.5em;
   top: -1em;
-  left: 5em;
+  left: 4.5em;
 }

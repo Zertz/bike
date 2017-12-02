@@ -1,5 +1,5 @@
 .Spoke {
-  background-color: #666;
+  background-color: currentColor;
   transform-origin: 0 0;
   width: 0.5em;
   height: 50%;

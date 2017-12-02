@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import './ChainStay.css'
 
 const ChainStay = ({
-  color,
   wheelDiameter
 }) => (
   <div
@@ -16,7 +15,6 @@ const ChainStay = ({
 )
 
 ChainStay.propTypes = {
-  color: PropTypes.string.isRequired,
   wheelDiameter: PropTypes.number.isRequired
 }
 

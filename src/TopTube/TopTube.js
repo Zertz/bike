@@ -4,17 +4,13 @@ import PropTypes from 'prop-types'
 import './TopTube.css'
 
 const TopTube = ({
-  color,
+  wheelDiameter
 }) => (
-  <div className='TopTube' style={{ color }} />
+  <div className='TopTube' style={{ width: `${wheelDiameter - 1}em`}} />
 )
 
-TopTube.defaultProps = {
-  color: '#999'
-}
-
 TopTube.propTypes = {
-  color: PropTypes.string,
+  wheelDiameter: PropTypes.number.isRequired,
 }
 
 export default TopTube

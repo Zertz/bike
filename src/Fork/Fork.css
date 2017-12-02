@@ -1,0 +1,20 @@
+.Fork {
+  background-color: currentColor;
+  transform: rotate(20deg);
+  transform-origin: center bottom;
+  width: 0.5em;
+  position: absolute;
+  left: -0.25em;
+}
+
+/* Hub */
+.Fork:before {
+  background-color: currentColor;
+  border-radius: 50%;
+  content: '';
+  width: 1.2em;
+  height: 1.25em;
+  position: absolute;
+  bottom: -0.625em;
+  left: calc(50% - 0.625em);
+}

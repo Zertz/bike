@@ -10,30 +10,29 @@ import ChainStay from '../ChainStay'
 
 import './Frame.css'
 
-const Frame = (props) => (
+const Frame = ({
+  color,
+  ...rest
+}) => (
   <div
     className='Frame'
     style={{
-      color: props.color,
-      height: `${(props.wheelDiameter / 2) + (props.wheelDiameter * 0.125)}em`,
-      bottom: `${props.wheelDiameter / 2}em`
+      color,
+      height: `${(rest.wheelDiameter / 2) + (rest.wheelDiameter * 0.125)}em`,
+      bottom: `${rest.wheelDiameter / 2}em`
     }}
   >
-    <TopTube {...props} />
-    <HeadTube {...props} />
-    <DownTube {...props} />
-    <SeatTube {...props} />
-    <SeatStay {...props} />
-    <ChainStay {...props} />
+    <TopTube {...rest} />
+    <HeadTube {...rest} />
+    <DownTube {...rest} />
+    <SeatTube {...rest} />
+    <SeatStay {...rest} />
+    <ChainStay {...rest} />
   </div>
 )
 
-Frame.defaultProps = {
-  color: '#999'
-}
-
 Frame.propTypes = {
-  color: PropTypes.string,
+  color: PropTypes.string.isRequired,
   wheelDiameter: PropTypes.number.isRequired
 }
 

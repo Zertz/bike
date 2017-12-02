@@ -2,5 +2,37 @@
   transform: rotate(11deg);
   transform-origin: center top;
   width: 0.5em;
-  top: -0.5em;
+  top: 1.5em;
+}
+
+.SeatTube:before, .SeatTube:after {
+  animation-duration: inherit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: currentColor;
+  content: '';
+  transform-origin: center bottom;
+  width: 0.5em;
+  height: 4em;
+  position: absolute;
+  bottom: 0;
+}
+
+.SeatTube:before {
+  animation-name: Pedal-spin-one;
+}
+
+.SeatTube:after {
+  animation-name: Pedal-spin-two;
+  transform: rotate(180deg);
+}
+
+@keyframes Pedal-spin-one {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+@keyframes Pedal-spin-two {
+  from { transform: rotate(540deg); }
+  to { transform: rotate(180deg); }
 }

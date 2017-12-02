@@ -4,14 +4,12 @@ import PropTypes from 'prop-types'
 import './DownTube.css'
 
 const DownTube = ({
-  color,
   wheelDiameter
 }) => (
-    <div className='DownTube' />
+    <div className='DownTube' style={{ width: `${wheelDiameter + 1}em`}} />
 )
 
 DownTube.propTypes = {
-  color: PropTypes.string.isRequired,
   wheelDiameter: PropTypes.number.isRequired
 }
 

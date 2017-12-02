@@ -1,5 +1,4 @@
 .Wheel {
-  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   border-color: #333;
